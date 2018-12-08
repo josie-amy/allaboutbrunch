@@ -1,0 +1,81 @@
+
+/* navbar styling */
+
+.navbar {
+  background-color: rgba(255,255,255,0.8)
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+/* homepage styling */
+
+.jumboContainer {
+  margin-top: 60px;
+}
+
+.jumbotron {
+  background-image: url('../pics/brunchbanner3.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin: 20px;
+  height: 560px;
+}
+
+.jumoboText {
+  display: grid;
+  text-align: center;
+  height: 200px;
+}
+
+.headerText {
+  font-size: 80px;
+  font-weight: 400;
+  margin-top: 0;
+  padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lead {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -8px;
+  padding: 30px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.rounded-circle {
+  background-size: cover;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.history {
+  border: 20px solid;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: grey;
+  color: white;
+}
+
+.fa:hover {
+  background: #5a5a5a;
+  color: white;
+  text-decoration: none;
+}
