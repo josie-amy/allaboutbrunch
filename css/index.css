@@ -99,3 +99,12 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .headerText {
+    font-size: 60px;
+  }
+  .lead {
+    font-size: 20px;
+  }
+}
