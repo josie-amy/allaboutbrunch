@@ -17,7 +17,7 @@
 }
 
 .jumbotron {
-  background-image: url('../pics/brunchbanner3.jpg');
+  background-image: url("../pics/brunchbanner3.jpg");
   background-size: cover;
   background-position: center center;
   margin: 20px;
@@ -52,6 +52,10 @@
 
 .rounded-circle {
   background-size: cover;
+}
+
+.pageLinks {
+  margin-top: 20px;
 }
 
 .btnForm {
@@ -100,11 +104,37 @@
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 520px) {
   .headerText {
     font-size: 60px;
   }
   .lead {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rounded-circle {
+    width: 200px;
+    height: 200px;
+  }
+  .pageLinks {
+    font-size: 40px;
+  }
+  .pageDescript {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .rounded-circle {
+    width: 150px;
+    height: 150px;
+  }
+  .pageLinks {
+    font-size: 30px;
+  }
+  .pageDescript {
+    font-size: 15px;
   }
 }
