@@ -45,12 +45,23 @@
 }
 
 .marketing .col-lg-4 {
+  margin-top: 30px;
   margin-bottom: 1.5rem;
   text-align: center;
 }
 
 .rounded-circle {
   background-size: cover;
+}
+
+.btnForm {
+  margin-bottom: 30px;
+  background-color: grey;
+  border: none;
+}
+
+.btnForm:hover {
+  background: #5a5a5a;
 }
 
 .btn {
@@ -78,4 +89,13 @@
   background: #5a5a5a;
   color: white;
   text-decoration: none;
+}
+
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width: 780px) {
+  .navbar-text {
+    display: none;
+  }
 }
