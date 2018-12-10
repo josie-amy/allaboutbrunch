@@ -17,7 +17,7 @@
 }
 
 .jumbotron {
-  background-image: url('../pics/brunchbanner3.jpg');
+  background-image: url("../pics/brunchbanner3.jpg");
   background-size: cover;
   background-position: center center;
   margin: 20px;
@@ -45,12 +45,27 @@
 }
 
 .marketing .col-lg-4 {
+  margin-top: 30px;
   margin-bottom: 1.5rem;
   text-align: center;
 }
 
 .rounded-circle {
   background-size: cover;
+}
+
+.pageLinks {
+  margin-top: 20px;
+}
+
+.btnForm {
+  margin-bottom: 30px;
+  background-color: grey;
+  border: none;
+}
+
+.btnForm:hover {
+  background: #5a5a5a;
 }
 
 .btn {
@@ -78,4 +93,48 @@
   background: #5a5a5a;
   color: white;
   text-decoration: none;
+}
+
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width: 780px) {
+  .navbar-text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .headerText {
+    font-size: 60px;
+  }
+  .lead {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .rounded-circle {
+    width: 200px;
+    height: 200px;
+  }
+  .pageLinks {
+    font-size: 40px;
+  }
+  .pageDescript {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .rounded-circle {
+    width: 150px;
+    height: 150px;
+  }
+  .pageLinks {
+    font-size: 30px;
+  }
+  .pageDescript {
+    font-size: 15px;
+  }
 }
